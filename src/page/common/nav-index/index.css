@@ -1,0 +1,48 @@
+/*
+* @Author: UsingLove
+* @Date:   2017-09-24 08:07:15
+* @Last Modified by:   UsingLove
+* @Last Modified time: 2017-11-14 14:03:06
+*/
+.nav{
+    background: #eee;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+.logo{
+    width: 240px;
+    height: 169px;
+    background: url(../../../image/logo/logo.jpg);
+    float: left;
+}
+/* 用户部分 */
+.nav .user{
+    float: left;
+    margin-left: 15px;
+}
+.nav .user.login{
+    display: none;
+}
+.nav .user .link{
+    margin-right: 5px;
+}
+.nav .user-level{
+    color: red;
+}
+/* 导航链接部分 */
+.nav .nav-list{
+    float: right;
+}
+.nav .nav-list .nav-item{
+    display: inline-block;
+    margin-left: 5px;
+}
+.nav .nav-list .links{
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+}
+.js-register{
+    color: red;
+}

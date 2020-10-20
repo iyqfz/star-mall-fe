@@ -1,0 +1,26 @@
+/*
+* @Author: UsingLove
+* @Date:   2017-11-07 09:25:00
+* @Last Modified by:   UsingLove
+* @Last Modified time: 2017-11-07 11:35:57
+*/
+
+.top-tip-wrap {
+    height: 80px;
+    background: #ff851e;
+}
+.mod-actmark{
+    width: 163px;
+    height: 80px;
+    float: left;
+    background-image: url(../../../image/background/double-one-img1.png);
+}
+.mod-actmark-right{
+    height: 80px;
+    background-image: url(../../../image/background/double-one-img2.jpg);
+}
+.remove-top-tip-wrap{
+    position: relative;
+    float:right;
+    cursor: pointer;
+}

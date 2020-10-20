@@ -1,0 +1,34 @@
+/*
+* @Author: UsingLove
+* @Date:   2017-11-14 14:54:04
+* @Last Modified by:   UsingLove
+* @Last Modified time: 2017-12-04 11:24:41
+*/
+
+.list{ 
+    padding: 0 5px;
+}
+.list .list-item{
+    margin: 0 0 15px 0;
+}
+.list .list-item .title{
+    background: #eee;
+    height: 38px;
+    line-height: 38px;
+}
+.list .list-item .title span{
+    margin-right: 10px;
+}
+.list .list-item .delete-btn{ 
+    margin-top: 5px; 
+}
+.list .list-item .edit-btn{
+    margin-top: 5px; 
+}
+.list .list-item .content{
+    min-height: 50px;
+    font-size: 17px;
+}
+.reply{
+    color : red;
+}

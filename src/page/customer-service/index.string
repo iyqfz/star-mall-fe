@@ -1,0 +1,23 @@
+<div class="list"> 
+    {{#list}}
+    <div class="list-item" data-service-id="{{id}}" data-order-no="{{orderNo}}"> 
+        <div class="title">
+            <span>订单号：<a class="link order-num" href="./order-detail.html?orderNumber={{orderNo}}" target="_blank">{{orderNo}}</a></span>
+            <span>申请时间：{{createTime}}</span>
+            <span>状态：{{status}}</span>
+        </div>
+        <div class="content">
+            <div>简述：<span class="service-title">{{title}}</span></div>
+            <div>详细情况：<span class="service-main-content">{{mainContent}}</span></div>
+        </div>
+        {{#reply}}
+        <div class="reply">客服回复：{{reply}}</div>
+        {{/reply}}
+        <div class="btn edit-btn">编辑</div>
+        <div class="btn delete-btn">撤销</div>
+    </div> 
+    {{/list}}
+    {{^list}}
+    <div>您目前没有订单在售后状态中哦~</div>
+    {{/list}}
+</div>
