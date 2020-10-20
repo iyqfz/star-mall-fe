@@ -1,7 +1,7 @@
 {
-  "name": "btuc-fe",
+  "name": "star-mall-fe",
   "version": "1.0.0",
-  "description": "btuc前端代码",
+  "description": "star-mall前端代码",
   "main": "webpack.config.js",
   "scripts": {
     "dev": "WEBPACK_ENV=dev webpack-dev-server --inline --port 8088",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/btuc/btuc-fe.git"
+    "url": "git+https://github.com/iyqfz/star-mall-fe.git"
   },
   "author": "usinglove",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/btuc/btuc-fe/issues"
+    "url": "https://github.com/iyqfz/star-mall-fe/issues"
   },
-  "homepage": "https://github.com/btuc/btuc-fe#readme",
+  "homepage": "https://github.com/iyqfz/star-mall-fe#readme",
   "devDependencies": {
     "css-loader": "^0.28.1",
     "extract-text-webpack-plugin": "^1.0.1",

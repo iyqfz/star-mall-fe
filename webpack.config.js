@@ -45,8 +45,7 @@ var config = {
     },
     output: {
         path       : './dist/',         //文件存放的位置
-        // publicPath : 'dev' === WEBPACK_ENV ? '/dist/' : '//s.chirou.shop/btuc-fe/dist/',   //访问的路径
-        publicPath : 'dev' === WEBPACK_ENV ? '/dist/' : '/dist/',   //访问的路径
+        publicPath : 'dev' === WEBPACK_ENV ? '/dist/' : '//static.iyqrj.com/star-mall-fe/dist/',   //访问的路径
         filename   : 'js/[name].js'
     },
     externals : {
