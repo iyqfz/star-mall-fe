@@ -4,6 +4,7 @@
   "description": "star-mall前端代码",
   "main": "webpack.config.js",
   "scripts": {
+    "install": "npm install --registry=https://registry.npm.taobao.org",
     "dev": "WEBPACK_ENV=dev webpack-dev-server --inline --port 8088",
     "dev_win": "set WEBPACK_ENV=dev && webpack-dev-server --inline --port 8088",
     "dist": "WEBPACK_ENV=online webpack -p",
