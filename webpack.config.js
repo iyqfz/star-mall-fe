@@ -19,9 +19,9 @@ var getHtmlConfig = function(name,title){
 };
 //webpack config
 var config = {
-    // devServer: {
-    //     host: 'localhost.charlesproxy.com',
-    // },
+    devServer: {
+        host: 'localhost.charlesproxy.com',
+    },
     entry: {
         'common'                                 : ['./src/page/common/index.js'],
         'index'                                  : ['./src/page/index/index.js'],
